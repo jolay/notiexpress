@@ -1,0 +1,52 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /2016/notiexpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /2016/notiexpress/index.php [L]
+</IfModule>
+# END WordPress
+
+# Redirect 301
+
+Redirect 301 /2016/03/21/tecnologia/apps-para-abuelitos-adultos-mayores-abriendo-la-brecha-digital/ http://notiexpress.mx/tecnologia/2016/04/apps-para-abuelitos
+Redirect 301 /2016/03/01/tecnologia/apps-para-abuelitos-adultos-mayores-abriendo-la-brecha-digital/ http://notiexpress.mx/tecnologia/2016/04/apps-para-abuelitos
+Redirect 301 /2016/03/02/finanzas/evita-estos-8-errores-en-tus-finanzas-personales/ http://notiexpress.mx/finanzas/2016/04/8-errores-en-tus-finanzas-personales/
+Redirect 301 /2016/03/03/negocios/negocios-rentables-y-con-poca-inversion/ http://notiexpress.mx/negocios/2016/04/negocios-rentables-y-con-poca-inversion/
+Redirect 301 /2016/03/04/politica/la-politica-mexicana-y-su-realidad/ http://notiexpress.mx/politica/2016/04/realidad-de-la-politica-mexicana/
+Redirect 301 /2016/03/28/negocios/5-pasos-para-conseguir-tu-primer-cliente/ http://notiexpress.mx/negocios/2016/04/pasos-para-conseguir-clientes/
+Redirect 301 /2016/03/05/negocios/5-pasos-para-conseguir-tu-primer-cliente/ http://notiexpress.mx/negocios/2016/04/pasos-para-conseguir-clientes/
+Redirect 301 /2016/03/29/tecnologia/apps-para-que-los-ninos-aprendan-a-programar/ http://notiexpress.mx/tecnologia/2016/04/apps-para-ninos/
+Redirect 301 /2016/03/06/tecnologia/apps-para-que-los-ninos-aprendan-a-programar/ http://notiexpress.mx/tecnologia/2016/04/apps-para-ninos/
+Redirect 301 /2016/03/29/finanzas/puedes-ser-mas-rico-sin-ganar-mas/ http://notiexpress.mx/finanzas/2016/04/mas-rico-sin-ganar-mas/
+Redirect 301 /2016/03/07/finanzas/puedes-ser-mas-rico-sin-ganar-mas/ http://notiexpress.mx/finanzas/2016/04/mas-rico-sin-ganar-mas/
+Redirect 301 /2016/03/29/salud-y-belleza/grasas-necesarias-para-el-cuerpo/ http://notiexpress.mx/salud-belleza/2016/04/grasas-necesarias-para-el-cuerpo/
+Redirect 301 /2016/03/08/salud-y-belleza/grasas-necesarias-para-el-cuerpo/ http://notiexpress.mx/salud-belleza/2016/04/grasas-necesarias-para-el-cuerpo/
+Redirect 301 /2016/03/09/politica/presidenciales-que-se-vislumbran-para-2018/ http://notiexpress.mx/politica/2016/04/presidenciables-para-2018/
+Redirect 301 /2016/03/10/negocios/analisis-comparativo-del-mercado-inmobiliario/ http://notiexpress.mx/negocios/2016/04/comparativo-del-mercado-inmobiliario/
+Redirect 301 /2016/03/22/internacional/atentados-terroristas-en-belgica/ http://notiexpress.mx/internacional/2016/03/atentados-terroristas-en-belgica/
+Redirect 301 /2016/03/23/economia/el-96-de-la-riqueza-mundial-acumulada-solo-por-el-2-de-la-poblacion/ http://notiexpress.mx/economia/2016/04/riqueza-mundial-acumulada/
+Redirect 301 /2016/03/28/politica/la-mejor-pelicula-de-los-oscares-de-la-politica-mexicana-2016/ http://notiexpress.mx/politica/2016/04/oscares-de-la-politica-mexicana/
+Redirect 301 /2016/03/28/tecnologia/app-de-mensajeria-sera-operadora-telefonica-en-japon/ http://notiexpress.mx/tecnologia/2016/04/app-de-mensajeria-sera-operadora-telefonica-en-japon/
+Redirect 301 /2016/03/28/tecnologia/crean-version-especial-de-windows-10-para-china/ http://notiexpress.mx/tecnologia/2016/04/windows-10-para-china
+Redirect 301 /2016/03/28/economia/esclavitud-moderna-en-mexico/ http://notiexpress.mx/economia/2016/04/esclavitid-moderna-en-mexico/
+Redirect 301 /2016/03/29/negocios/tips-para-solicitar-financiamiento-pyme/ http://notiexpress.mx/negocios/2016/04/tips-para-solicitar-financiamiento-pyme/
+Redirect 301 /2016/03/29/economia/tendencias-en http://notiexpress.mx/economia/2016/04/tendencias-de-economia-mundial/
+Redirect 301 /2016/03/29/internacional/tiroteo-en-la-casa-blanca-2-heridos/ http://notiexpress.mx/internacional/2016/04/tiroteo-en-la-casa-blanca/
+Redirect 301 /2016/03/29/tecnologia/la-respuesta-de-apple-al-fbi-por-el-iphone-de-san-bernardino/ http://notiexpress.mx/tecnologia/2016/04/respuesta-de-apple-al-fbi/
+Redirect 301 /2016/03/29/politica/la-corrupcion-un-fenomeno-cultural-pena/ http://notiexpress.mx/politica/2016/04/corrupcion-un-fenomeno-cultural/
+Redirect 301 /2016/03/29/internacional/castro-no-necesitamos-que-el-imperio-nos-regale-nada/ http://notiexpress.mx/internacional/2016/04/que-el-imperio-nos-regale-nada/
+Redirect 301 /2016/03/29/deportes/seleccion-mexicana-ya-tiene-boleto-para-el-hexagonal/ http://notiexpress.mx/deportes/2016/04/seleccion-mexicana-ya-tiene-boleto/
+Redirect 301 /2016/03/29/finanzas/3-pasos-para-tu-credito-hipotecario-de-fovissste-e-infonavit/ http://notiexpress.mx/finanzas/2016/04/pasos-para-tu-credito-hipotecario/
+Redirect 301 /2016/03/30/negocios/planifica-tu-negocio-inmobiliario/ http://notiexpress.mx/negocios/2016/04/planifica-tu-negocio-inmobiliario/
+Redirect 301 /2016/03/30/finanzas/elias-saad-ganem/ http://notiexpress.mx/politica/2016/04/elias-saad-en-fovissste/
+Redirect 301 /category/deportes/ http://notiexpress.mx/deportes
+Redirect 301 /category/economia/ http://notiexpress.mx/economia
+Redirect 301 /category/finanzas/ http://notiexpress.mx/finanzas
+Redirect 301 /category/internacional/ http://notiexpress.mx/internacional
+Redirect 301 /category/negocios/ http://notiexpress.mx/negocios
+Redirect 301 /category/politica/ http://notiexpress.mx/politica
+Redirect 301 /category/salud-y-belleza/ http://notiexpress.mx/salud-belleza
+Redirect 301 /category/tecnologia/ http://notiexpress.mx/tecnologia
